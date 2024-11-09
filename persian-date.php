@@ -78,3 +78,15 @@ class JalaliDate {
 $date = new JalaliDate();
 $today = $date->getCurrentDate();
 print_r($today);
+//تست خروجی
+//[
+// {
+//     day_name: "شنبه",
+//     day: "19",
+//     month_name: "آبان",
+//     month: "8",
+//     year: "1403",
+//     full_date: "شنبه 19 آبان 1403",
+//     time: "11:08:40"
+//     }
+//     ]
