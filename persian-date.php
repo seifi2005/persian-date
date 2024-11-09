@@ -76,7 +76,6 @@ class JalaliDate {
     }
 }
 
-// نحوه استفاده
 $date = new JalaliDate();
 $today = $date->getCurrentDate();
 print_r($today);
