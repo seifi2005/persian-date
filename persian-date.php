@@ -75,7 +75,6 @@ class JalaliDate {
         return ($break_y % 33 == 4 || $break_y % 33 == 29);
     }
 }
-
 $date = new JalaliDate();
 $today = $date->getCurrentDate();
 print_r($today);
